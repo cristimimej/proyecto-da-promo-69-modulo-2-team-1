@@ -1,30 +1,32 @@
-La fuga  
-Héroes del Silencio  
-Billie Eilish  
-Love of Lesbian  
-Estopa  
-Mägo de Oz  
-Mr. kilombo  
-Rozalén  
-Taburete  
-Extremoduro  
-La plazuela   
-Veintiuno  
-Ojete calor  
-Rata blanca  
-Vetusta Morla  
-Leiva  
-Bad bunny  
-Enrique Bunbury  
-Marea  
-Joaquín Sabina  
-Rosalía  
-Queen  
-The lumineers  
-Foo fighters  
-Muse  
-Metallica  
-Ginebras  
-IZAL  
-Kaiser Chiefs  
-Residente
+ARTISTAS = [
+    "La Fuga",
+    "Héroes del Silencio",
+    "Billie Eilish",
+    "Love of Lesbian",
+    "Estopa",
+    "Mägo de Oz",
+    "Mr. Kilombo",
+    "Rozalén",
+    "Taburete",
+    "Extremoduro",
+    "La Plazuela",
+    "Veintiuno",
+    "Ojete Calor",
+    "Rata Blanca",
+    "Vetusta Morla",
+    "Leiva",
+    "Bad Bunny",
+    "Enrique Bunbury",
+    "Marea",
+    "Joaquín Sabina",
+    "Rosalía",
+    "Queen",
+    "The Lumineers",
+    "Foo Fighters",
+    "Muse",
+    "Metallica",
+    "Ginebras",
+    "IZAL",
+    "Kaiser Chiefs",
+    "Residente"
+]
