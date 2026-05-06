@@ -1,6 +1,6 @@
 # proyecto-da-promo-69-modulo-2-team-1
 
-# 🎵 Son do Camiño 2027 — Análisis de Viabilidad Artística
+# 🎵 O Son Do Camiño 2027 — Análisis de Viabilidad Artística
 
 > *"La música es el camino. Nosotros solo ponemos el cartel."*
 
@@ -8,7 +8,7 @@
 
 ## 📖 Contexto
 
-Con motivo de la próxima edición del **Son do Camiño 2027**, la organización del festival nos ha encargado un análisis exhaustivo para determinar qué artistas del panorama actual tienen más probabilidades de garantizar el éxito del evento.
+Con motivo de la próxima edición del **O Son Do Camiño 2027**, la organización del festival nos ha encargado un análisis exhaustivo para determinar qué artistas del panorama actual tienen más probabilidades de garantizar el éxito del evento.
 
 Para ello, la plantilla de la organización lanzó una consulta interna sobre sus artistas favoritos. Con esa lista en mano, nuestro equipo ha cruzado datos de dos grandes fuentes de información musical:
 
@@ -93,6 +93,7 @@ Generar un **informe de viabilidad** que permita a la organización del Son do C
 
 Proyecto desarrollado como ejercicio de integración y análisis de datos procedentes de múltiples APIs en MYSQL Workbench.
 
+ 
 ---
 
 *Son do Camiño 2027 — Que el camino elija la música.*
