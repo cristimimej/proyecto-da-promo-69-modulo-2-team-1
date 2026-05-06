@@ -91,6 +91,11 @@ Generar un **informe de viabilidad** que permita a la organización del Son do C
 
 ## 👥 Equipo
 
+- 🌟 Estefania Zamorano Mancilla - Scrum Master
+- 🌟 Jezabel Sanchez Romero
+- 🌟 Julia Corada Montano
+- 🌟 Cristina Millán Mejías
+
 Proyecto desarrollado como ejercicio de integración y análisis de datos procedentes de múltiples APIs en MYSQL Workbench.
 
  
