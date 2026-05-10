@@ -1,6 +1,6 @@
 ARTISTAS = [
     "La Fuga",
-    "Héroes del Silencio",
+    "Fito y fitipaldis",
     "Billie Eilish",
     "Love of Lesbian",
     "Estopa",
