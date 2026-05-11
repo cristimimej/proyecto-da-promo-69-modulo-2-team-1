@@ -39,9 +39,9 @@ O Son Do Camiño ha agotado en tiempo récord los abonos de su próxima edición
 | **MUSE** | Cabeza de cartel |
 | **BILLIE EILISH** | Cabeza de cartel |
 | Residente | |
+| Fito y Fitipaldis | |
 | Love of Lesbian | |
 | Enrique Bunbury | |
-| Fito y Fitipaldis | |
 | Mr. Kilombo | |
 | Taburete | |
 
@@ -50,7 +50,6 @@ O Son Do Camiño ha agotado en tiempo récord los abonos de su próxima edición
 |---|---|
 | **FOO FIGHTERS** | Cabeza de cartel |
 | **ROSALÍA** | Cabeza de cartel |
-| Extremoduro | Homenaje póstumo a Robe Iniesta |
 | Estopa | |
 | Rata Blanca | |
 | Vetusta Morla | |
@@ -59,7 +58,7 @@ O Son Do Camiño ha agotado en tiempo récord los abonos de su próxima edición
 | La Plazuela | |
 
 ### 🎸 Suplentes
-Metallica · Kaiser Chiefs · The Lumineers · Ginebras · Leiva
+Maná · Metallica · Kaiser Chiefs · The Lumineers · Ginebras · Leiva
 
 ---
 
