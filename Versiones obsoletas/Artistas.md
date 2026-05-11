@@ -8,7 +8,7 @@ ARTISTAS = [
     "Mr. Kilombo",
     "Rozalén",
     "Taburete",
-    "Extremoduro",
+    "Maná",
     "La Plazuela",
     "Veintiuno",
     "Ojete Calor",
