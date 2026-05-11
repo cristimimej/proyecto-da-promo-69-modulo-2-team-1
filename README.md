@@ -1,7 +1,5 @@
 # proyecto-da-promo-69-modulo-2-team-1
-
 # 🎵 O Son Do Camiño 2027 — Análisis de Viabilidad Artística
-
 > *"La música es el camino. Nosotros solo ponemos el cartel."*
 
 ---
@@ -19,11 +17,57 @@ El objetivo: **convertir preferencias subjetivas en criterios objetivos de viabi
 
 ---
 
+## 🎤 Cartel Oficial
+
+O Son Do Camiño ha agotado en tiempo récord los abonos de su próxima edición en el Monte do Gozo, confirmando una vez más lo que ya nadie discute: este festival es una de las citas musicales más importantes de Europa.
+
+### 🟡 Xoves 17
+| Artista | |
+|---|---|
+| **QUEEN** + Adam Lambert | Cabeza de cartel |
+| **BAD BUNNY** | Cabeza de cartel |
+| Joaquín Sabina | |
+| Mägo de Oz | |
+| Marea | |
+| La Fuga | |
+| Veintiuno | |
+| Ojete Calor | |
+
+### 🟠 Venres 18
+| Artista | |
+|---|---|
+| **MUSE** | Cabeza de cartel |
+| **BILLIE EILISH** | Cabeza de cartel |
+| Residente | |
+| Love of Lesbian | |
+| Enrique Bunbury | |
+| Fito y Fitipaldis | |
+| Mr. Kilombo | |
+| Taburete | |
+
+### 🔴 Sábado 19
+| Artista | |
+|---|---|
+| **FOO FIGHTERS** | Cabeza de cartel |
+| **ROSALÍA** | Cabeza de cartel |
+| Extremoduro | Homenaje póstumo a Robe Iniesta |
+| Estopa | |
+| Rata Blanca | |
+| Vetusta Morla | |
+| Mikel Izal | |
+| Rozalén | |
+| La Plazuela | |
+
+### 🎸 Suplentes
+Metallica · Kaiser Chiefs · The Lumineers · Ginebras · Leiva
+
+---
+
 ## 🗄️ Base de Datos
 
-El proyecto trabaja con dos tablas principales en **MySQL**:
+El proyecto trabaja con tres tablas principales en **MySQL**:
 
-### `api lastfm`
+### `artistas` (Last.fm)
 | Campo | Descripción |
 |---|---|
 | `artista` | Nombre del artista (PK) |
@@ -32,7 +76,7 @@ El proyecto trabaja con dos tablas principales en **MySQL**:
 | `playcount` | Reproducciones totales históricas |
 | `similares` | Artistas similares según Last.fm |
 
-### `deezer`
+### `canciones` (Deezer)
 | Campo | Descripción |
 |---|---|
 | `artist_id` | ID del artista en Deezer |
@@ -44,11 +88,19 @@ El proyecto trabaja con dos tablas principales en **MySQL**:
 | `genre` | Género musical |
 | `genre_id` | ID del género |
 
+### `tracks_lastfm` (Last.fm)
+| Campo | Descripción |
+|---|---|
+| `artista` | Nombre del artista |
+| `track` | Título de la canción |
+| `playcount` | Reproducciones de la canción |
+| `listeners` | Oyentes únicos de la canción |
+
 ---
 
 ## 🔗 Cruce de Tablas
 
-Las dos APIs utilizan sistemas de IDs propios e incompatibles entre sí, por lo que el cruce se realiza por **nombre de artista** usando normalización de texto (`LOWER`) para evitar fallos por diferencias de capitalización:
+Las dos APIs utilizan sistemas de IDs propios e incompatibles entre sí, por lo que el cruce se realiza por **nombre de artista** usando normalización de texto (`LOWER`) para evitar fallos por diferencias de capitalización.
 
 ---
 
@@ -73,7 +125,7 @@ Número de álbumes y canciones disponibles en Deezer. Un artista con catálogo 
 
 ## 🏆 Objetivo Final
 
-Generar un **informe de viabilidad** que permita a la organización del Son do Camiño 2027 tomar decisiones fundamentadas sobre:
+Generar un **informe de viabilidad** que permita a la organización del O Son Do Camiño 2027 tomar decisiones fundamentadas sobre:
 
 - Qué artistas incluir en el cartel
 - Cómo distribuirlos por escenarios y días
@@ -83,22 +135,42 @@ Generar un **informe de viabilidad** que permita a la organización del Son do C
 
 ## 🛠️ Tecnologías
 
-- **MySQL 8.0** — gestión y consulta de la base de datos
-- **Last.fm API** — datos de popularidad y contexto artístico
-- **Deezer API** — catálogo discográfico actualizado
+- **Python** — extracción y transformación de datos
+- **Deezer API** — catálogo discográfico, géneros y actividad reciente
+- **Last.fm API** — datos de popularidad, biografías y artistas similares
+- **MySQL 8.0** — almacenamiento, gestión y consulta de la base de datos
+- **Pandas** — manipulación y transformación de datos
+- **Matplotlib / Seaborn** — visualización de resultados
+- **GitHub** — control de versiones en equipo
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+├── notebooks/
+│   ├── Deezer_V_2_0.ipynb        # Extracción datos Deezer
+│   ├── lastfmcontemas.ipynb      # Extracción datos Last.fm
+│   └── etl_musicstream.ipynb     # Base de datos, consultas y gráficas
+├── data/
+│   ├── deezer_artists.csv
+│   ├── lastfm_artistas.csv
+│   ├── lastfm_tracks.csv
+│   └── df_final.csv
+└── README.md
+```
 
 ---
 
 ## 👥 Equipo
 
-- 🌟 Estefania Zamorano Mancilla - Scrum Master
+- 🌟 Estefania Zamorano Mancilla — Scrum Master
 - 🌟 Jezabel Sanchez Romero
 - 🌟 Julia Corada Montano
 - 🌟 Cristina Millán Mejías
 
-Proyecto desarrollado como ejercicio de integración y análisis de datos procedentes de múltiples APIs en MYSQL Workbench.
+Proyecto desarrollado como ejercicio de integración y análisis de datos procedentes de múltiples APIs en MySQL Workbench.
 
- 
 ---
 
-*Son do Camiño 2027 — Que el camino elija la música.*
+*O Son Do Camiño 2027 — Que el camino elija la música.*
