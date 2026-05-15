@@ -148,8 +148,8 @@ Generar un **informe de viabilidad** que permita a la organización del O Son Do
 
 ```
 ├── notebooks/
-│   ├── Deezer_V_2_0.ipynb        # Extracción datos Deezer
-│   ├── lastfmcontemas.ipynb      # Extracción datos Last.fm
+│   ├── Deezer.ipynb              # Extracción datos Deezer
+│   ├── lastfm.ipynb              # Extracción datos Last.fm
 │   └── etl_musicstream.ipynb     # Base de datos, consultas y gráficas
 ├── data/
 │   ├── deezer_artists.csv
